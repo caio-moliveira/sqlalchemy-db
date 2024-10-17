@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sqlalchemy-db"
+version = "0.1.0"
+description = ""
+authors = ["Caio Machado <moliveiracaio@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
